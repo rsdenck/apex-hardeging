@@ -1,20 +1,58 @@
+# Hardening Linux
+
 <div align="center">
-  <img src="https://calcomsoftware.com/wp-content/uploads/2023/12/Linux-server-hardening-tips-541x392.png" alt="Linux Hardening" width="450"/>
+  <img src="img/linux-hardening.png" alt="Linux Hardening" style="width: 100%; max-width: 800px; height: auto;"/>
 </div>
 
-# 🔐 Hardening Linux
+## Visão Geral
 
-Este repositório contém **manuais, boas práticas e scripts de automação** voltados para o **hardening de sistemas Linux**.  
-O objetivo é oferecer uma base de conhecimento e ferramentas que auxiliem na **redução da superfície de ataque**, **aumento da segurança** e **padronização de ambientes**.
+- Este repositório contém **manuais técnicos e scripts de automação** para hardening de sistemas Linux.  
+- O objetivo é fornecer um conjunto de práticas recomendadas e ferramentas que auxiliem na melhoria da segurança, padronização de ambientes e mitigação de riscos operacionais.
 
+## Objetivos
+
+- Reduzir a superfície de ataque em servidores Linux.  
+- Estabelecer políticas de segurança consistentes.  
+- Automatizar processos de configuração segura.
+- Ajustar desempenho de servidores Linux, de acordo com o seu trabalho.  
+- Servir como base de conhecimento para equipes de infraestrutura e segurança.  
+
+## Estrutura do Repositório
+
+```bash
+hardening/
+├── docs/ 
+│   ├── sistema-operacional/   # Guias específicos por distribuição
+│   ├── servicos/              # Hardening de serviços (SSH, Apache, etc.)
+│   ├── redes/                 # Configurações de rede e firewall
+│   └── compliance/            # Políticas e benchmarks de segurança
+├── scripts/                   # Scripts de automação para hardening
+│   ├── sistema/               # Scripts de hardening do SO
+│   ├── servicos/              # Scripts para serviços específicos
+│   └── auditoria/             # Scripts de verificação e compliance
+├── configs/                   # Exemplos de arquivos de configuração
+│   ├── sysctl/                # Configurações de kernel
+│   ├── audit/                 # Regras de auditoria
+│   └── firewall/              # Regras de firewall
+├── img/ 
+└── README.md                  # Este arquivo
+```
 ---
 
-## 📌 Conteúdo
-- Documentação de hardening para diversos serviços.  
-- Scripts de automação de configurações seguras.  
-- Exemplos de políticas e boas práticas.  
-- Guias de referência rápida para administradores de sistemas.  
+## Conteúdo Técnico
 
----
+### Documentação
+- **Sistema Operacional**: Guias de hardening para Sistemas Operacionais Linux, Database, Middleware.
+- **Desempenho e Performance**: Hardening de Kernel, e recursos de SO, para melhor desempenho.
 
-## 📂 Estrutura do Repositório
+### Scripts de Automação
+- **hard_ssh.sh**: Configurações de hardening para serviço SSH
+- **hard_db.sh**: Realiza auditoria de segurança do sistema
+- **hard_app.sh**: Verifica conformidade com políticas de segurança
+
+### Instalação e Uso
+
+- **Clone o repositório**:
+```bash
+git clone https://github.com/seu-usuario/hardening.git
+cd hardening
