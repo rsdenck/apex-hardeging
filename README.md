@@ -1,7 +1,7 @@
 # Hardening Linux
 
 <div align="center">
-  <img src="img/linux-hardening.png" alt="Linux Hardening" style="width: 100%; max-width: 800px; height: auto;"/>
+  <img src="img/hard.jpg" alt="Linux Hardening" style="width: 100%; max-width: 800px; height: auto;"/>
 </div>
 
 ## Visão Geral
