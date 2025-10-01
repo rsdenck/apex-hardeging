@@ -1,7 +1,7 @@
-# Hardening Linux
+<h1 align="center">Hardening Linux</h1>
 
 <div align="center">
-  <img src="img/hard.jpg" alt="Linux Hardening" style="width: auto; height: auto; max-width: 200%;"/>
+  <img src="img/hard.jpg" alt="Linux Hardening" style="width: auto; height: auto; max-width: 100%;"/>
 </div>
 
 
@@ -48,8 +48,8 @@ hardening/
 
 ### Scripts de Automação
 - **hard_ssh.sh**: Configurações de hardening para serviço SSH
-- **hard_db.sh**: Realiza auditoria de segurança do sistema
-- **hard_app.sh**: Verifica conformidade com políticas de segurança
+- **hard_db.sh**:  Configuração de Hardening para SO de Database
+- **hard_app.sh**: Configuração de Hardening para SO de Middleware
 
 ### Instalação e Uso
 
